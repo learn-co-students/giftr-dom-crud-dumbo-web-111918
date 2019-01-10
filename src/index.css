@@ -7,8 +7,15 @@
 }
 
 #gift-icon:hover {
-    animation: shake 0.7s; 
-    animation-iteration-count: infinite; 
+    animation: shake 0.7s;
+    animation-iteration-count: infinite;
+}
+.gift-list {
+  list-style: none;
+}
+
+img, video {
+  max-width: 100%;
 }
 
 @keyframes shake {
